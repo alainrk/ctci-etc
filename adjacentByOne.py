@@ -24,7 +24,7 @@ def test ():
   if adjacent(105) != test:
     print("Error on", test)
     return False
-  test = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98, 101]
+  test = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 21, 23, 32, 34, 43, 45, 54, 56, 65, 67, 76, 78, 87, 89, 98, 101, 121, 123]
   if adjacent(135) != test:
     print("Error on", test)
     return False
